@@ -274,27 +274,28 @@ h3 {
         left: 20%;
     }
 }
+
 @media screen and (max-width: 400px) {
     .alert_div {
-        width: 80%!important;
-        left: 10%!important;
+        width: 80% !important;
+        left: 10% !important;
         margin-top: 100px
     }
-    
-     .alert h2 {
+
+    .alert h2 {
         font-size: 22px
     }
 
     .alert h4 {
-        font-size: 16px!important
+        font-size: 16px !important
     }
 
-    
+
 }
 
 
 
-  
+
 @media screen and (max-width: 600px) {
     .alert_div {
         width: 70%;
@@ -334,13 +335,15 @@ h3 {
 
     }
 
-    #cal{
+    #cal {
         margin-top: -30px;
-        
+
     }
-    .bucket_class{
+
+    .bucket_class {
         margin-top: -70px
     }
+
     button {
         font-size: 20px;
         background-color: black;
@@ -352,6 +355,10 @@ h3 {
 
 
 
+    }
+
+    .button {
+        padding-bottom: 30px
     }
 
     #edit_per {
@@ -393,10 +400,11 @@ h3 {
     .bucket input {
         width: 100px
     }
-    .bucket {
-    margin-top: 60px;
 
-}
+    .bucket {
+        margin-top: 60px;
+
+    }
 
 
 }
@@ -404,13 +412,13 @@ h3 {
 
 @media screen and (max-width: 350px) {
     body {
-        margin: 0 10px!important;
+        margin: 0 10px !important;
         padding: 0;
 
     }
-    
+
 }
-  
+
 
 @media screen and (min-width: 2000px) {
 
