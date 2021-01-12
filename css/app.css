@@ -1,0 +1,422 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 300px;
+    padding: 0;
+    background: rgb(106, 36, 255);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(106, 36, 255, 1)), color-stop(19%, rgba(116, 29, 238, 1)), color-stop(42%, rgba(145, 12, 207, 1)), color-stop(88%, rgba(180, 89, 223, 1)));
+    background: linear-gradient(180deg, rgba(106, 36, 255, 1) 0%, rgba(116, 29, 238, 1) 19%, rgba(145, 12, 207, 1) 42%, rgba(180, 89, 223, 1) 88%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 48px
+}
+
+
+input {
+    font-size: 24px;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    float: right;
+    margin-top: -50px;
+    text-align: center;
+    background-color: white
+}
+
+.wages {
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+
+.wages input {
+    width: 150px;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.wage_input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.bucket input {
+    width: 130px
+}
+
+
+.bucket {
+    margin-top: 50px;
+
+}
+
+.button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 24px;
+    -webkit-transition: ease-out 0.1s;
+    transition: ease-out 0.1s
+}
+
+
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+    cursor: pointer
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    width: 60%
+}
+
+h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+
+#edit_per {
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    padding: 0 10px;
+
+}
+
+
+.save_per {
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    padding: 0 10px;
+    display: none
+}
+
+
+.percentage {
+    position: absolute;
+    right: 20px;
+    margin-top: -20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 80px !important;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center !important;
+    display: none
+}
+
+.percentage_show {
+    display: block;
+}
+
+
+.hide_class {
+    display: none
+}
+
+#edit_btn {
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px
+}
+
+
+.bucket h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+
+.alert h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 34px;
+    width: 100%
+}
+
+.alert h4 {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase
+}
+
+.alert_div {
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+
+}
+
+.alert_div_show {
+    display: block;
+}
+
+.alert_div_hide {
+    display: none;
+}
+
+
+.alert {
+    background-color: white;
+    border: none;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 50px 0;
+
+}
+
+
+.main_disable {
+    pointer-events: none
+}
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        margin: 0 100px;
+        padding: 0;
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .alert h2 {
+        font-size: 25px
+    }
+
+    .alert h4 {
+        font-size: 18px
+    }
+
+    .alert button {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8)
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .alert h2 {
+        font-size: 25px
+    }
+
+    .alert h4 {
+        font-size: 18px
+    }
+
+    .alert button {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8)
+    }
+
+    .alert_div {
+        width: 60%;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .alert_div {
+        width: 80%!important;
+        left: 10%!important;
+        margin-top: 100px
+    }
+    
+     .alert h2 {
+        font-size: 22px
+    }
+
+    .alert h4 {
+        font-size: 16px!important
+    }
+
+    
+}
+
+
+
+  
+@media screen and (max-width: 600px) {
+    .alert_div {
+        width: 70%;
+        left: 15%;
+    }
+
+    .alert h4 {
+        font-size: 16px
+    }
+
+    h1 {
+        font-size: 30px
+    }
+
+    h2 {
+        font-size: 20px
+    }
+
+    body {
+        margin: 0 40px;
+        padding: 0;
+
+    }
+
+    .percentage {
+        position: absolute;
+        right: 20px;
+        margin-top: -9px;
+        border-radius: 10px;
+        background-color: white;
+        width: 70px !important;
+        font-size: 13px !important;
+        font-weight: 200;
+        text-align: center !important;
+
+
+
+    }
+
+    #cal{
+        margin-top: -30px;
+        
+    }
+    .bucket_class{
+        margin-top: -70px
+    }
+    button {
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+
+
+
+    }
+
+    #edit_per {
+        width: 120px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 13px;
+        height: 40px
+    }
+
+    #edit_btn {
+        width: 120px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 13px;
+        height: 40px
+    }
+
+
+
+    input {
+        font-size: 20px !important;
+        height: 30px !important;
+        padding: 0 10px !important;
+
+    }
+
+
+    .wages input {
+        width: 150px;
+        height: 40px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+
+    .bucket input {
+        width: 100px
+    }
+    .bucket {
+    margin-top: 60px;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 350px) {
+    body {
+        margin: 0 10px!important;
+        padding: 0;
+
+    }
+    
+}
+  
+
+@media screen and (min-width: 2000px) {
+
+    body {
+        margin: 0 30%;
+        padding: 0;
+
+    }
+}
